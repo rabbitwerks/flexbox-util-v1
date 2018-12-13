@@ -1,0 +1,97 @@
+
+
+
+/* 
+  flexbox utility class used globally
+*/
+.flexbox {
+  display: flex;
+}
+.flexdir-row {
+  flex-direction: row;
+}
+.flexdir-rowrev {
+  flex-direction: row-reverse;
+}
+.flexdir-col {
+  flex-direction: column;
+}
+.flexdir-colrev {
+  flex-direction: column-reverse;
+}
+
+/* flex amount classes for children */
+.flex-1 {
+  flex: 1;
+}
+.flex-2 {
+  flex: 2;
+}
+.flex-3 {
+  flex: 3;
+}
+.flex-4 {
+  flex: 4;
+}
+.flex-5 {
+  flex: 5;
+}
+.flex-6 {
+  flex: 6;
+}
+.flex-7 {
+  flex: 7;
+}
+.flex-8 {
+  flex: 8;
+}
+.flex-9 {
+  flex: 9;
+}
+/* classes for wrapper element to align children */
+.flexbox-space-between {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+.flexbox-space-evenly {
+  display: flex;
+  flex: 1;
+  justify-content: space-evenly;
+}
+.flexbox-space-around {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+}
+
+/* align classes */
+.flex-align-baseline {
+  align-items: baseline;
+}
+.flex-align-center {
+  align-items: center;
+}
+.flex-align-flexend {
+  align-items: flex-end;
+}
+.flex-align-flexstart {
+  align-items: flex-start;
+}
+
+.flex-align-baseline.align-self {
+  align-self: baseline;
+}
+.flex-align-center .align-self {
+  align-self: center;
+}
+.flex-align-flexend.align-self {
+  align-items: flex-end;
+}
+.flex-align-flexstart.align-self {
+  align-items: flex-start;
+}
+
+.flex-justify-center {
+  justify-content: center
+}
