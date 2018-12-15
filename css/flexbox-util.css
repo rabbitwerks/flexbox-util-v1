@@ -48,6 +48,24 @@
 .flex-9 {
   flex: 9;
 }
+.flex-10 {
+  flex: 10;
+}
+.flex-11 {
+  flex: 11;
+}
+.flex-12 {
+  flex: 12;
+}
+.flex-13 {
+  flex: 13;
+}
+.flex-14 {
+  flex: 14;
+}
+.flex-15 {
+  flex: 15;
+}
 /* classes for wrapper element to align children */
 .flexbox-space-between {
   display: flex;
@@ -94,4 +112,23 @@
 
 .flex-justify-center {
   justify-content: center
+}
+
+.flexgap-1 *{
+ margin: 0 .25rem;
+}
+.flexgap-1 *:first-child {
+  margin: 0 .25 0 0rem;
+}
+.flexgap-1 *:last-child{
+ margin: 0 0 0 .25rem;
+}
+.flexgap-2 *{
+ margin: 0 .5rem;
+}
+.flexgap-2 *:first-child {
+  margin: 0 .5 0 0rem;
+}
+.flexgap-2 *:last-child{
+ margin: 0 0 0 .5rem;
 }
