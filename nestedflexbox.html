@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nested Flexbox</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/flexbox-util.css">
+</head>
+<body class="flexbox flexdir-col">
+  <h1>Nested Flexbox</h1>
+  <div class="container flexbox">
+    <div class="box flex-1 flexbox">
+      <div class="sub-box flex-1"></div>
+      <div class="sub-box flex-4"></div>
+      <div class="sub-box flex-1"></div>
+    </div>
+    <div class="box flex-1 flexbox">
+      <div class="sub-box flex-8"></div>
+      <div class="sub-box flex-4"></div>
+      <div class="sub-box flex-2"></div>
+      <div class="sub-box flex-1"></div>
+    </div>
+    <div class="box flex-1 flexbox">
+      <div class="sub-box accent flex-1"></div>
+      <div class="sub-box flex-15"></div>
+    </div>
+
+  </div>
+  <div class="container flexbox border-all">
+
+  </div>
+    <a href="./flexgap.html">>Flexgap</a>
+</body>
+</html>
