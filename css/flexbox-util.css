@@ -1,6 +1,5 @@
 
 
-
 /* 
   flexbox utility class used globally
 */
@@ -67,6 +66,10 @@
   flex: 15;
 }
 /* classes for wrapper element to align children */
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
 .flexbox-space-between {
   display: flex;
   flex: 1;
@@ -140,4 +143,22 @@
 }
 .flexgap-3 *:last-child{
  margin: 0 0 0 .75rem;
+}
+.flexgap-4 *{
+ margin: 0 1rem;
+}
+.flexgap-4 *:first-child {
+  margin: 0 1rem 0 0;
+}
+.flexgap-4 *:last-child{
+ margin: 0 0 0 1rem;
+}
+.flexgap-5 *{
+ margin: 0 1.5rem;
+}
+.flexgap-5 *:first-child {
+  margin: 0 1.5rem 0 0;
+}
+.flexgap-5 *:last-child{
+ margin: 0 0 0 1.5rem;
 }
