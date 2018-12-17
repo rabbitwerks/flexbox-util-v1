@@ -107,16 +107,34 @@
   align-self: center;
 }
 .flex-align-flexend.align-self {
-  align-items: flex-end;
+  align-self: flex-end;
 }
 .flex-align-flexstart.align-self {
-  align-items: flex-start;
+  align-self: flex-start;
 }
 
+.flex-justify-start {
+  justify-content: flex-start;
+}
 .flex-justify-center {
-  justify-content: center
+  justify-content: center;
+}
+.flex-justify-end {
+  justify-content: flex-end
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-no-wrap {
+  flex-wrap: nowrap;
+}
+.flex-wraprev {
+  flex-wrap: wrap-reverse;
+}
+
+
+/* FLEXGAP CLASSES */
 .flexgap-1 *{
  margin: 0 .25rem;
 }
