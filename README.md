@@ -45,4 +45,8 @@ It is best practice to follow these few conventions to ensure proper behavior fr
 - Parent containers of flex displays must have the `.flexbox` class on it, or a class that apllies flexbox with other properties.
 - Children with inherit or auto widthd must have a `.flex-[1-15]` class for sizing. Default to .flex-1
 - Nested flex displays must be applied after the current elements child-flex properties are applied.
-    - e.g. `class="... flex-1 flexbox"` where `.flex-1` is the current element sizing and we are setting the contents inside it as `display: flex`
+    - e.g. `class="... flex-1 flexbox"` 
+    - where `.flex-1` is the current element sizing and we are setting the contents inside it as `display: flex`.
+- each element nested as a flex container can have an independant flew-flow from its parent by applying the `.flexdir-*` class after the `.flexbox`
+    - e.g. - e.g. `class="... flex-1 flexbox flexdir-col"`
+    - where `.flexdir-col` is changing the nested flex containers flex direction to column (vertical)
