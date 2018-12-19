@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Flex Transitions</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/flexbox-util.css">
+</head>
+<body>
+  <div class="container flexbox flexdir-col">
+    <div class="box flex-1 flexbox">
+      <div class="sub-box flex-1"></div>
+      <div 
+        id="demo-box1"
+        class="
+          sub-box 
+          flex-6 flex-i fxt-8
+          flexbox-space-center">
+        <span>Click me for Demo!</span>
+      </div>
+      <div class="sub-box flex-1"></div>
+    </div>
+
+    <div class="box flex-1 flexbox">
+      <div 
+        id="demo-box2-1"
+        class="sub-box flex-1 fxt-4"></div>
+      <div 
+        id="demo-box2-2"
+        class="
+          sub-box
+          flex-3 flex-i fxt-4
+          flexbox-space-center">
+        <span>Click me for Demo!</span>
+      </div>
+    </div>
+  </div>
+  <script>
+    document.getElementById('demo-box1').addEventListener('click', (e) => {
+      document.getElementById('demo-box1').classList.toggle('flex-6')
+    })
+    document.getElementById('demo-box2-2').addEventListener('click', () => {
+      document.getElementById('demo-box2-2').classList.toggle('flex-3')
+      document.getElementById('demo-box2-2').classList.toggle('flex-1')
+      document.getElementById('demo-box2-1').classList.toggle('flex-1')
+      document.getElementById('demo-box2-1').classList.toggle('flex-3')
+    })
+  </script>
+</body>
+</html>
