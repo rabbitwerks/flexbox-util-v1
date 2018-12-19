@@ -7,6 +7,7 @@ html, body {
   height: 100vh;
   font-size: 20px;
   font-family: sans-serif;
+  overflow: hidden;
 }
 ul {
   padding-left: 1.5rem;
@@ -50,4 +51,13 @@ ul {
 
 .accent {
   background-color: rgb(163, 255, 240);
+}
+
+#demo-box1 {
+  background-color: rgb(12, 98, 104);
+  color: #eee;
+}
+
+#demo-box2-2 {
+  background-color: rgb(3, 182, 173);
 }
