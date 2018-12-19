@@ -180,3 +180,42 @@
 .flexgap-5 *:last-child{
  margin: 0 0 0 1.5rem;
 }
+
+
+
+/* flex transition classes 
+  these classes are for transitioning the flex css property. each class increases the duration by 100ms until reaching a 1s max at the fxt-10 class.
+
+  fxt- is the transition class prefix and the following # number represents the duration. 
+
+ */
+.fxt-1 {
+  transition: flex 0.1s ease-in-out;
+}
+.fxt-2 {
+  transition: flex 0.2s ease-in-out;
+}
+.fxt-3 {
+  transition: flex 0.3s ease-in-out;
+}
+.fxt-4 {
+  transition: flex 0.4s ease-in-out;
+}
+.fxt-5 {
+  transition: flex 0.5s ease-in-out;
+}
+.fxt-6 {
+  transition: flex 0.6s ease-in-out;
+}
+.fxt-7 {
+  transition: flex 0.7s ease-in-out;
+}
+.fxt-8 {
+  transition: flex 0.8s ease-in-out;
+}
+.fxt-9 {
+  transition: flex 0.9s ease-in-out;
+}
+.fxt-10 {
+  transition: flex 1s ease-in-out;
+}
