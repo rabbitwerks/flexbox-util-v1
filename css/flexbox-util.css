@@ -67,49 +67,49 @@
 }
 
 /* flex important override default with flex-i */
-.flex-1.flex-i {
+.flex-1-i {
   flex: 1 !important;
 }
-.flex-2.flex-i {
+.flex-2-i {
   flex: 2 !important;
 }
-.flex-3.flex-i {
+.flex-3-i {
   flex: 3 !important;
 }
-.flex-4.flex-i {
+.flex-4-i {
   flex: 4 !important;
 }
-.flex-5.flex-i {
+.flex-5-i {
   flex: 5 !important;
 }
-.flex-6.flex-i {
+.flex-6-i {
   flex: 6 !important;
 }
-.flex-7.flex-i {
+.flex-7-i {
   flex: 7 !important;
 }
-.flex-8.flex-i {
+.flex-8-i {
   flex: 8 !important;
 }
-.flex-9.flex-i {
+.flex-9-i {
   flex: 9 !important;
 }
-.flex-10.flex-i {
+.flex-10-i {
   flex: 10 !important;
 }
-.flex-11.flex-i {
+.flex-11-i {
   flex: 11 !important;
 }
-.flex-12.flex-i {
+.flex-12-i {
   flex: 12 !important;
 }
-.flex-13.flex-i {
+.flex-13-i {
   flex: 13 !important;
 }
-.flex-14.flex-i {
+.flex-14-i {
   flex: 14 !important;
 }
-.flex-15.flex-i {
+.flex-15-i {
   flex: 15 !important;
 }
 /* classes for wrapper element to align children */
