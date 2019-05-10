@@ -1,5 +1,4 @@
 
-
 /* 
   flexbox utility class used globally
 */
@@ -158,6 +157,12 @@
   justify-content: center;
   align-items: center;
 }
+.flex-center.center-self {
+  display: flex;
+  justify-self: center;
+  align-self: center;
+}
+
 .flexbox-space-center {
   display: flex;
   flex: 1;
@@ -214,8 +219,9 @@
   justify-content: center;
 }
 .flex-justify-end {
-  justify-content: flex-end
+  justify-content: flex-end;
 }
+
 
 .flex-wrap {
   flex-wrap: wrap;
@@ -276,12 +282,57 @@
 }
 
 
+.flexdir-col.flexgap-1 > *{
+ margin: .25rem 0;
+}
+.flexdir-col.flexgap-1 > *:first-child {
+  margin: 0 0 .25rem 0;
+}
+.flexdir-col.flexgap-1 > *:last-child{
+ margin: .25rem 0 0 0;
+}
+.flexdir-col.flexgap-2 > *{
+ margin: .5rem 0;
+}
+.flexdir-col.flexgap-2 > *:first-child {
+  margin: 0 0 .5rem 0;
+}
+.flexdir-col.flexgap-2 > *:last-child{
+ margin: .5rem 0 0 0;
+}
+.flexdir-col.flexgap-3 > *{
+ margin: .75rem 0;
+}
+.flexdir-col.flexgap-3 > *:first-child {
+  margin: 0 0 .75rem 0;
+}
+.flexdir-col.flexgap-3 > *:last-child{
+ margin: .75rem 0 0 0;
+}
+.flexdir-col.flexgap-4 > *{
+ margin: 1rem 0;
+}
+.flexdir-col.flexgap-4 > *:first-child {
+  margin: 0 0 1rem 0;
+}
+.flexdir-col.flexgap-4 > *:last-child{
+ margin: 1rem 0 0 0;
+}
+.flexdir-col.flexgap-5 > *{
+ margin: 1.5rem 0;
+}
+.flexdir-col.flexgap-5 > *:first-child {
+  margin: 0 0 1.5rem 0;
+}
+.flexdir-col.flexgap-5 > *:last-child{
+ margin: 1.5rem 0 0 0;
+}
+
+
 
 /* flex transition classes 
   these classes are for transitioning the flex css property. each class increases the duration by 100ms until reaching a 1s max at the fxt-10 class.
-
   fxt- is the transition class prefix and the following # number represents the duration. 
-
  */
 .fxt-1 {
   transition: flex 0.1s ease-in-out;
