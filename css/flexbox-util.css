@@ -82,68 +82,79 @@
 }
 
 /* flex important override default with flex-i */
-.flex-1-i {
+.flex-1i {
   flex: 1 !important;
 }
-.flex-2-i {
+.flex-2i {
   flex: 2 !important;
 }
-.flex-3-i {
+.flex-3i {
   flex: 3 !important;
 }
-.flex-4-i {
+.flex-4i {
   flex: 4 !important;
 }
-.flex-5-i {
+.flex-5i {
   flex: 5 !important;
 }
-.flex-6-i {
+.flex-6i {
   flex: 6 !important;
 }
-.flex-7-i {
+.flex-7i {
   flex: 7 !important;
 }
-.flex-8-i {
+.flex-8i {
   flex: 8 !important;
 }
-.flex-9-i {
+.flex-9i {
   flex: 9 !important;
 }
-.flex-10-i {
+.flex-10i {
   flex: 10 !important;
 }
-.flex-11-i {
+.flex-11i {
   flex: 11 !important;
 }
-.flex-12-i {
+.flex-12i {
   flex: 12 !important;
 }
-.flex-13-i {
+.flex-13i {
   flex: 13 !important;
 }
-.flex-14-i {
+.flex-14i {
   flex: 14 !important;
 }
-.flex-15-i {
+.flex-15i {
   flex: 15 !important;
 }
-.flex-16-i {
+.flex-16i {
   flex: 16 !important;
 }
-.flex-17-i {
+.flex-17i {
   flex: 17 !important;
 }
-.flex-18-i {
+.flex-18i {
   flex: 18 !important;
 }
-.flex-19-i {
+.flex-19i {
   flex: 19 !important;
 }
-.flex-20-i {
+.flex-20i {
   flex: 20 !important;
 }
 /* classes for wrapper element to align children */
-.flex-center {
+/* flex-space-center vs flexbox-space-center
+- use flex-space-center for elements that have a defined size, so flexbox does not override and strech/shrink item
+
+- use flexbox-space-center to give element a flex width that fills remaining space
+- use space-center to apply only the justify center and align center properties
+*/ 
+.space-center {
+  justify-content: center;
+  align-items: center;
+}
+.flex-space-center {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
