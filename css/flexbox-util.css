@@ -431,7 +431,7 @@ SHORTHAND SYNTAX FOR FLEXBOX UTIL LIBRARY @rabbitwerks.js
   flex: 12;
 }
 
-.fxbx.sp-ctr {
+.fxbx.spc-ctr {
   justify-content: center;
   align-items: center;
 }
@@ -455,7 +455,7 @@ SHORTHAND SYNTAX FOR FLEXBOX UTIL LIBRARY @rabbitwerks.js
 }
 
 /* Shorthand flex classes for the child elements of a flexbox element*/
-.fxbx .sp-ctr {
+.fxbx .spc-ctr {
   justify-content: center;
   align-items: center;
 }
