@@ -18,7 +18,15 @@ ul {
 }
 .box {
   width: auto;
-  height: 10rem;
+  height: 15rem;
+  background: #3ad1af;
+  margin: 1rem;
+  padding: 1rem;
+  border: 3px solid #212121;
+}
+.box2 {
+  width: auto;
+  height: 30rem;
   background: #3ad1af;
   margin: 1rem;
   padding: 1rem;

@@ -479,12 +479,132 @@ SHORTHAND SYNTAX FOR FLEXBOX UTIL LIBRARY @rabbitwerks.js
   align-items: flex-end;
 }
 
-.fxbx.spc-bt {
-  justify-content: space-between;
+
+/* FLEXGAP CLASSES */
+.fxg-1 > *{
+  margin: 0 .25rem;
 }
-.fxbx.spc-ar {
-  justify-content: space-around;
+.fxg-1 > *:first-child {
+  margin: 0 .25rem 0 0;
 }
-.fxbx.spc-ev {
-  justify-content: space-evenly;
+.fxg-1 > *:last-child{
+  margin: 0 0 0 .25rem;
+ }
+.fxg-2 > *{
+  margin: 0 .5rem;
+ }
+.fxg-2 > *:first-child {
+   margin: 0 .5rem 0 0;
+ }
+ .fxg-2 > *:last-child{
+  margin: 0 0 0 .5rem;
+ }
+ .fxg-3 > *{
+  margin: 0 .75rem;
+ }
+ .fxg-3 > *:first-child {
+   margin: 0 .75rem 0 0;
+ }
+ .fxg-3 > *:last-child{
+  margin: 0 0 0 .75rem;
+ }
+ .fxg-4 > *{
+  margin: 0 1rem;
+ }
+ .fxg-4 > *:first-child {
+   margin: 0 1rem 0 0;
+ }
+ .fxg-4 > *:last-child{
+  margin: 0 0 0 1rem;
+ }
+ .fxg-5 > *{
+  margin: 0 1.5rem;
+ }
+ .fxg-5 > *:first-child {
+   margin: 0 1.5rem 0 0;
+ }
+ .fxg-5 > *:last-child{
+  margin: 0 0 0 1.5rem;
+ }
+ .fxg-6 > *{
+  margin: 0 2rem;
+ }
+ .fxg-6 > *:first-child {
+   margin: 0 2rem 0 0;
+ }
+ .fxg-6 > *:last-child{
+  margin: 0 0 0 2rem;
+ }
+ .fxg-7 > *{
+  margin: 0 2.5rem;
+ }
+ .fxg-7 > *:first-child {
+   margin: 0 2.5rem 0 0;
+ }
+ .fxg-7 > *:last-child{
+  margin: 0 0 0 2.5rem;
+ }
+
+.fd-c.fxg-1 > *{
+  margin: .25rem 0;
+}
+.fd-c.fxg-1 > *:first-child {
+  margin: 0 0 .25rem 0;
+}
+.fd-c.fxg-1 > *:last-child{
+  margin: .25rem 0 0 0;
+}
+.fd-c.fxg-2 > *{
+  margin: .5rem 0;
+}
+.fd-c.fxg-2 > *:first-child {
+  margin: 0 0 .5rem 0;
+}
+.fd-c.fxg-2 > *:last-child{
+  margin: .5rem 0 0 0;
+}
+.fd-c.fxg-3 > *{
+  margin: .75rem 0;
+}
+.fd-c.fxg-3 > *:first-child {
+   margin: 0 0 .75rem 0;
+}
+.fd-c.fxg-3 > *:last-child{
+  margin: .75rem 0 0 0;
+}
+.fd-c.fxg-4 > *{
+  margin: 1rem 0;
+}
+.fd-c.fxg-4 > *:first-child {
+  margin: 0 0 1rem 0;
+}
+.fd-c.fxg-4 > *:last-child{
+  margin: 1rem 0 0 0;
+}
+.fd-c.fxg-5 > *{
+  margin: 1.5rem 0;
+}
+.fd-c.fxg-5 > *:first-child {
+  margin: 0 0 1.5rem 0;
+}
+.fd-c.fxg-5 > *:last-child{
+  margin: 1.5rem 0 0 0;
+}
+.fd-c.fxg-6 > *{
+  margin: 2rem 0;
+}
+.fd-c.fxg-6 > *:first-child {
+  margin: 0 0 2rem 0;
+}
+.fd-c.fxg-6 > *:last-child{
+  margin: 2rem 0 0 0;
+}
+.fd-c.fxg-7 > *{
+  margin: 2.5rem 0;
+}
+.fd-c.fxg-7 > *:first-child {
+  margin: 0 0 2.5rem 0;
+}
+.fd-c.fxg-7 > *:last-child{
+  margin: 2.5rem 0 0 0;
 }
