@@ -1,8 +1,9 @@
-_RabbitWerks Javascript 2020_
-
-# **Flexbox-Util v1.4**
+# **Flexbox-Util v1.5**
 
 *A utility based Flexbox css class-helper library to help take the guess work out of flexbox.*
+
+Author: Sean Becker : Rabbitwerks Javascript
+Year: 2020
 
 ## **Getting Started**
 
@@ -40,9 +41,11 @@ You can align your flex-items spacings automatically by using the `flexbox-space
   
 **.flexdir-colrev** | Applies the css rule `flex-direction: column-reverse` to the target element and changes the flex-direction to column (vertical), and reversed item display order.  
   
-**.flex-[1-20]** | Applies the css rule `flex` and the flex amount to the applied element.  
+**.flex-[1-20]** | Applies the css rule `flex` and the flex amount to the applied element.
+
+**.flex-[1-20]i** | Forces the css rule `flex` and the flex amount to the applied element using the **!important** css modifier.
   
-**.flexgap -[1-5]** | Applies a custom flexgap css rule group to the parent element of the target elements. Works in conjunction with `.flexbox` class.  
+**.flexgap -[1-7]** | Applies a custom flexgap css rule group to the parent element of the target elements. Works in conjunction with `.flexbox` class.  
 
 **.flex-center** | Sets the properites of the flex items inside a flex container to `justify-content: center` and `align-items: center`. (horizontally and vertically)
 
@@ -59,4 +62,20 @@ _It is best practice to follow these conventions to ensure proper behavior from 
   - e.g. `class="... flex-1 flexbox flexdir-col"`
   - where `.flexdir-col` is changing the nested flex containers flex direction to column (vertical)
 
-## 
+### **Flexgap**
+
+There is a customized "flex-gap" concept in this library. Think of almost like the effect that using grid-gap for CSS Grid would give you, this replicates the gap effect up to 2.5rems. The flexgap properties will space out each flex item according from each other.
+
+_Currently flexgap is only supported for use with flex directions row and column. Row reverse and column reverse will come in a later update._
+
+### **Flex Transition**
+
+These classes are for transitioning the flex css property. Each class increases the duration by 100ms until reaching a 1s max at the fxt-10 class. To apply the transition the class set **.fxt-[1-10]** is used. Where the transition class prefix is **.fxt-** and the following number represents the duration.
+
+_Keep in mind that this just sets a transition effect on the flex items if their flex amount changes or if they are externally transformed in css.
+
+### **Shorthand Classes**
+
+This library also includes shorthand classes to keep your markup as clean and clutter free as possible. For example, the class **.flexbox** is shortend to **.fxbx**; **.flexdir-colrev** is shortend to **.fd-cr**.
+
+Currently there are only shorthand classes for the most commonly used from this library, the full list will be coming in a future update.
